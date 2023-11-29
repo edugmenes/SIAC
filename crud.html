@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="estilo-crud.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<title>Sistema SIAC</title>
+</head>
+<body>
+
+	<header>
+		<div class="container d-flex justify-content-between header">
+			<div id="img-logo" class="navbar-brand">
+				<a href="index.html">
+					<img src="../img/logo.png" width="100%" height="100">
+				</a>		
+			</div>	
+			<nav class="navbar navbar-expand-lg navbar-light ">
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			     <span class="navbar-toggler-icon"></span>
+			   </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(Principal)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Sobre a Clínica</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Universidade</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link " href="#">Contato</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+		  
+		</div>
+</header>
+
+<main class="container">
+
+	<div>
+		
+		<form id="cadastroForm">
+		  <div class="mb-2">
+		    <label for="input1" class="form-label">Nome</label>
+		    <input type="text" class="form-control" id="nome" name="nome" required>
+		    <div class="invalid-feedback">
+		      Por favor, preencha este campo.
+		    </div>
+		  </div>
+		  <div class="mb-2">
+		    <label for="input2" class="form-label">Telefone</label>
+		    <input type="text" class="form-control" id="telefone" name="telefone" required>
+		    <div class="invalid-feedback">
+		      Por favor, preencha este campo.
+		    </div>
+		  </div>
+		  <div class="mb-2">
+		    <label for="input3" class="form-label">Sexo</label>
+		    <input type="text" class="form-control" id="sexo" name="sexo"  required>
+		    <div class="invalid-feedback">
+		      Por favor, preencha este campo.
+		    </div>
+		  </div>
+		  <div class="mb-2">
+		    <label for="input5" class="form-label">Endereço</label>
+		    <input type="text" class="form-control" id="endereco" name="endereco" required>
+		    <div class="invalid-feedback">
+		      Por favor, preencha este campo.
+		    </div>
+		  </div>
+		  
+		</form>
+
+
+	</div>
+	
+	<div class="row justify-content-center mt-4 ">
+		<div class="col-sm-3">
+			<button type="button" class="btn btn-primary1">Deletar</button>
+		</div>
+
+		<div class="col-sm-3">
+			<button type="button" class="btn btn-primary2" id="atualizarButton">Atualizar</button>
+		</div>
+
+		<div class="col-sm-3">
+			<button type="button" class="btn btn-primary3" id="cadastrarButton">Cadastrar</button>
+		</div>
+
+		<div class="col-sm-3">
+			<button type="button" class="btn btn-primary4" id="listarButton">Listar</button>
+		</div>
+	</div>
+	
+
+</main>
+
+
+<footer>
+	<div class="container d-flex justify-content-center align-items-center">
+
+		<p>Imprint | 2023 &copy; Copyright. All Rights Reserved.
+		Privacy Policy</p>
+
+	</div>
+</footer>
+
+<script	src="./crud.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

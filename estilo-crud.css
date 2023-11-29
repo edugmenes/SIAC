@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+    height: 100%;
+    background-attachment: fixed;
+}
+
+body{
+  background: linear-gradient(to top right, #1160A9, #F18722);
+  animation: fadeIn 2s;
+  height: auto;
+}
+
+.border{
+  border: 1px solid green;
+}
+
+a{
+  font-family:  'Arial', sans-serif;
+  font-size: 20px;
+  color: 00BFFF;
+}
+
+#img-logo{
+	padding: 10px 20px;
+}
+
+.nav-link {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: blue;
+  transform: scale(1.1);
+  border-radius: 5px;
+  color: black;
+
+  background: rgba(152, 156, 156, 0.74);
+  border-radius: 30px;
+  transform: rotate(0.07deg);
+}
+
+.header {
+  align-items: flex-end;
+}
+
+header li{
+	padding: 5px;
+}
+
+
+        /*BOTÕES*/
+
+
+/*Deletar*/
+
+.btn-primary1 {
+    border: none;
+    background: none;
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    left: 115px;
+    top: 520px;
+    font-size: large;
+
+    background: rgba(152, 156, 156, 0.74);
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+.btn-primary1:hover {
+    transform: scale(1.1);
+    background-color: #7b7b7b;
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+
+/*Atualizar*/
+
+.btn-primary2 {
+    border: none;
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    left: 400px;
+    top: 520px;
+    font-size: large;
+    
+
+    background: rgba(152, 156, 156, 0.74);
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+.btn-primary2:hover {
+    transform: scale(1.1);
+
+    background-color: #7b7b7b;
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+/*Cadastrar*/
+
+.btn-primary3{
+    border: none;
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    left: 984px;
+    top: 520px;
+    font-size: large;
+    
+    background: rgba(152, 156, 156, 0.74);
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+.btn-primary3:hover {
+    transform: scale(1.1);
+
+    background-color: #7b7b7b;
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+/*Listar*/
+
+.btn-primary4 {
+    border: none;
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    left: 690px;
+    top: 520px;
+    font-size: large;
+
+    background: rgba(152, 156, 156, 0.74);
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+.btn-primary4:hover {
+    transform: scale(1.1);
+
+    background-color: #7b7b7b;
+    border-radius: 30px;
+    transform: rotate(0.07deg);
+    color: white;
+}
+
+
+
+        /*Main*/
+
+
+main{
+  height: 70%;
+
+}
+
+#main-siac {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: #000;
+  margin: 20px;
+  padding: 20px;
+  text-shadow: 4px 2px 4px rgba(0,0,0,0.5);
+}
+
+#formulario{
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+/*footer*/
+
+footer{
+  height: auto;
+    top: auto;
+    margin-top: 158px;
+    clear: both;
+}
